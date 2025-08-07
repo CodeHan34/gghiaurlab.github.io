@@ -16,27 +16,30 @@
     header {
       background: #004080;
       color: white;
-      padding: 2rem;
-      text-align: center;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
     }
     nav {
-      background: #eee;
-      padding: 1rem;
-      text-align: center;
+      display: flex;
+      gap: 1.5rem;
     }
     nav a {
-      margin: 0 1rem;
-      color: #004080;
+      color: white;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
     }
     main {
       padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
-    }
-    section {
-      margin-bottom: 3rem;
     }
     footer {
       background: #004080;
@@ -48,43 +51,19 @@
 </head>
 <body>
   <header>
-    <h1>Gabriel Ghiaur Lab</h1>
-    <p>Stem Cell Biology | Hematopoiesis | Leukemia Research</p>
+    <a href="index.html" class="logo">Ghiaur Lab</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#people">People</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
   <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>The Gabriel Ghiaur Lab investigates the biology of hematopoietic stem cells, the bone marrow niche, and mechanisms driving leukemogenesis and therapeutic resistance.</p>
-    </section>
-
-    <section id="people">
-      <h2>People</h2>
-      <p>Gabriel Ghiaur (PI)<br />Research team coming soon.</p>
-    </section>
-
-    <section id="research">
-      <h2>Research</h2>
-      <p>Our lab explores how the bone marrow microenvironment influences normal and malignant hematopoiesis, with a focus on therapeutic targeting of leukemia stem cells.</p>
-    </section>
-
-    <section id="publications">
-      <h2>Publications</h2>
-      <p>Coming soon — a curated list of selected papers and preprints.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: gghiaur@university.edu<br />Twitter: @gghiaurlab<br />GitHub: github.com/gghiaurlab</p>
-    </section>
+    <h1>Welcome to the Gabriel Ghiaur Lab</h1>
+    <p>Stem Cell Biology | Hematopoiesis | Leukemia Research</p>
+    <p>The Gabriel Ghiaur Lab investigates the biology of hematopoietic stem cells, the bone marrow niche, and mechanisms driving leukemogenesis and therapeutic resistance.</p>
   </main>
 
   <footer>
